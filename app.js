@@ -35,11 +35,11 @@ document.getElementById("area").addEventListener("change", function() {
 
 function verificarEscolha() {
     let areaSelecionada = document.getElementById("area").value;
-    let caminhoSelecionado = document.getElementById("caminho").value;
-    
+    let caminhoSelecionado = document.getElementById("caminho");
+
     if (!areaSelecionada) {
         alert("Por favor, escolha primeiro entre Front-End ou Back-End antes de continuar.");
-        document.getElementById("caminho").value = ""; // Reseta a escolha para evitar avanço indevido
+        caminhoSelecionado.value = ""; // Reseta a seleção para evitar continuidade indevida
     }
 }
 
