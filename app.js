@@ -33,6 +33,16 @@ document.getElementById("area").addEventListener("change", function() {
     }
 });
 
+function verificarEscolha() {
+    let areaSelecionada = document.getElementById("area").value;
+    let caminhoSelecionado = document.getElementById("caminho").value;
+    
+    if (!areaSelecionada) {
+        alert("Por favor, escolha primeiro entre Front-End ou Back-End antes de continuar.");
+        document.getElementById("caminho").value = ""; // Reseta a escolha para evitar avanço indevido
+    }
+}
+
 function continuarJogo() {
     let tecnologia = document.getElementById("tecnologia").value;
     let caminho = document.getElementById("caminho").value;
