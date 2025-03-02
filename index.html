@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>7DaysOfcode-3dia</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Escolha seu Caminho na Programação</h1>
+        <label>Você quer seguir para a área de Front-End ou Back-End?</label>
+        <select id="area">
+            <option value="" disabled selected>Selecione uma opção</option>
+            <option value="front-end">Front-End</option>
+            <option value="back-end">Back-End</option>
+        </select>
+        <br>
+        <label id="labelTecnologia" style="display: none;"></label>
+        <select id="tecnologia" style="display: none;"></select>
+        <br>
+        <label>Você quer se especializar ou se tornar Fullstack?</label>
+        <select id="caminho">
+            <option value="especializar">Especializar</option>
+            <option value="fullstack">Fullstack</option>
+        </select>
+        <br>
+        <button onclick="continuarJogo()">Continuar</button>
+        <div id="tecnologiasExtras"></div>
+    </div>
+    <script src="app.js" defer></script>
+</body>
+</html>
