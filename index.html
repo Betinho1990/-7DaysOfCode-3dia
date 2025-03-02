@@ -19,8 +19,9 @@
         <label id="labelTecnologia" style="display: none;"></label>
         <select id="tecnologia" style="display: none;"></select>
         <br>
-        <label>Você quer se especializar ou se tornar Fullstack?</label>
-        <select id="caminho">
+        <label id="labelCaminho" style="display: none;">Você quer se especializar ou se tornar Fullstack?</label>
+        <select id="caminho" style="display: none;" onchange="verificarEscolha()">
+            <option value="" disabled selected>Selecione uma opção</option>
             <option value="especializar">Especializar</option>
             <option value="fullstack">Fullstack</option>
         </select>
