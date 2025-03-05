@@ -141,12 +141,14 @@ Editar
 
 <div id="tecnologiasExtras"></div>
 ```
-🔗 Tecnologias Utilizadas
-HTML
-CSS (opcional para estilização do formulário)
-JavaScript
+## 🔗 Tecnologias Utilizadas
 
-📜 Licença
+- HTML
+- CSS (opcional para estilização do formulário)
+- JavaScript
+
+## 📜 Licença
+
 Este projeto está sob a licença MIT. Sinta-se à vontade para usá-lo e modificá-lo!
 
-Se quiser ver mais projetos meus, acesse meu perfil no GitHub: [link] (https://github.com/Betinho1990)🚀
+Se quiser ver mais projetos meus, acesse meu perfil no GitHub: [Seu GitHub 🚀](https://github.com/Betinho1990)
