@@ -106,17 +106,16 @@ function adicionarTecnologia() {
     }
 }
 ```
-📌 Como Usar
-Clone este repositório ou copie o código.
+## 📌 Como Usar
 
-Crie um arquivo HTML com os seguintes elementos:
-
-Um select para escolher entre Front-End ou Back-End (id="area").
-Um select para escolher a tecnologia, dependendo da área escolhida (id="tecnologia").
-Um select para escolher o caminho (especialização ou Fullstack) (id="caminho").
-Adicione um botão para chamar a função continuarJogo().
-Adicione um campo para inserir tecnologias extras.
-Execute o código em seu navegador e interaja com o formulário.
+1. Clone este repositório ou copie o código.
+2. Crie um arquivo HTML com os seguintes elementos:
+   - Um select para escolher entre Front-End ou Back-End (id="area").
+   - Um select para escolher a tecnologia, dependendo da área escolhida (id="tecnologia").
+   - Um select para escolher o caminho (especialização ou Fullstack) (id="caminho").
+   - Adicione um botão para chamar a função `continuarJogo()`.
+   - Adicione um campo para inserir tecnologias extras.
+3. Execute o código em seu navegador e interaja com o formulário.
 
 🎨 Exemplo de Uso
 ```html
