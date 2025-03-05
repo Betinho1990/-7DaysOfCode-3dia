@@ -105,6 +105,7 @@ function adicionarTecnologia() {
         inputNovaTecnologia.value = "";
     }
 }
+```
 📌 Como Usar
 Clone este repositório ou copie o código.
 
@@ -118,7 +119,7 @@ Adicione um campo para inserir tecnologias extras.
 Execute o código em seu navegador e interaja com o formulário.
 
 🎨 Exemplo de Uso
-html
+```html
 Copiar
 Editar
 <select id="area">
@@ -139,7 +140,13 @@ Editar
 <button onclick="continuarJogo()">Continuar</button>
 
 <div id="tecnologiasExtras"></div>
+```
 🔗 Tecnologias Utilizadas
 HTML
 CSS (opcional para estilização do formulário)
 JavaScript
+
+📜 Licença
+Este projeto está sob a licença MIT. Sinta-se à vontade para usá-lo e modificá-lo!
+
+Se quiser ver mais projetos meus, acesse meu perfil no GitHub: [link] (https://github.com/Betinho1990)🚀
